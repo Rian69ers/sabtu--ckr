@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+
+  background-color: #e5dddd;
+}
+.box {
+  background-color: #f92020;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius:13px;
+  position: relative;
+
+}
+.box p {
+  color: white;
+}
+.close {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    background-color:white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box a {
+    text-decoration: none;
+    color: #f92020;
+    cursor: pointer;
+}
+
+.box a:hover {
+    font-size: x-large;
+}
+
+.container2 {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+}
+.kotak1 {
+    width: 80px;
+    height: 80px;
+    background-color: #FF0000;
+    border-radius: 0 0 50% 0;
+
+}
+.kotak2 {
+    width: 80px;
+    height: 80px;
+    background-color: #FF0000;
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    border-radius:50% 0 0 0 ;
+
+
+
+}
